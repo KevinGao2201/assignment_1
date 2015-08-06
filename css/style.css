@@ -1,77 +1,179 @@
-body{
-    font-family: 'Garamond', 'times new roman', serif;
-    color: #ffffff;
-    background: #2b2b2b;
-}
-header{
-    position: fixed;
-    top: 0;
-    height: 100px;
-    width: 100%;
-    background-color: rgba(43, 43, 43, 0.95);
-    border-bottom: 1px solid rgba(255,255,255,0.15);
-    text-align: center
-}
-main{
-    width: min-width: 500px;
-    max-width: 700px;
-    margin: 110px auto 0 auto;
-}
-hr{
-    border: none;
-    border-bottom: 1px solid white;
-    width: 100px;
-    margin: 0 auto 60px auto;
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
-header h1{
-    font-size: 4em;
-    font-family: 'helvetica neue', arial, sans-serif;
-    font-weight: 100;
-    line-height: 100px;
-/*
-    position: relative;
-    top: 10px;
-*/
-    color: #FF0066;
-    text-transform: uppercase;
+body {
+  line-height: 1;
 }
-h2{
-    font-size: 4em;
-    margin-bottom: 20px;
-    font-family: 'helvetica neue', arial, sans-serif;
-    text-shadow: rgba(0,0,0,0.25) 0 2px 5px 0;
-    text-transform: uppercase;
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
-h3{
-    font-size: 2em;
-    margin-bottom: 20px
+
+nav ul {
+  list-style: none;
 }
-h4{
-    font-size: 1.5em;
-    margin-bottom: 10px;
+
+blockquote, q {
+  quotes: none;
 }
-p{
-    line-height: 1.4;
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
 }
-.content{
-    margin: 0 auto 60px auto;
-    padding: 20px;
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
-.real_info{
-    padding-left: 20px;
-    border-left: 1px solid rgba(255,255,255,0.5);
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
-.real_info img{
-    max-width: 200px;
-    max-height: 300px;
-    margin-bottom: 10px;
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
-#period{
-    display: block;
-    height: 2px;
-    width: 2px;
-    border: 3px double white;
-    border-radius: 50%;
-    margin: 0 auto 60px auto;
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+body {
+  font-family: 'Garamond', 'times new roman', serif;
+  color: #ffffff;
+  background: #2b2b2b;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(43, 43, 43, 0.95);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+}
+header h1 {
+  font-size: 4em;
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 100;
+  line-height: 100px;
+  color: #FF0066;
+  text-transform: uppercase;
+}
+
+main {
+  min-width: 500px;
+  max-width: 700px;
+  margin: 110px auto 0 auto;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100px;
+  margin: 0 auto 60px auto;
+}
+
+.content {
+  margin: 0 auto 60px auto;
+  padding: 20px;
+}
+.content h2 {
+  font-size: 4em;
+  margin-bottom: 20px;
+  font-family: 'helvetica neue', arial, sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 2px 5px 0;
+  text-transform: uppercase;
+}
+.content h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.content .real_info {
+  padding-left: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+.content .real_info img {
+  max-width: 200px;
+  max-height: 300px;
+  margin-bottom: 10px;
+}
+.content .real_info h4 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.content .real_info p {
+  line-height: 1.4;
+}
+
+#period {
+  display: block;
+  height: 2px;
+  width: 2px;
+  border: 3px double white;
+  border-radius: 50%;
+  margin: 0 auto 60px auto;
 }

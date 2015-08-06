@@ -1,0 +1,87 @@
+@import "default.scss";
+
+body{
+    font-family: 'Garamond', 'times new roman', serif;
+    color: #ffffff;
+    background: #2b2b2b;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(43, 43, 43, 0.95);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    text-align: center;
+    
+    h1{
+        font-size: 4em;
+        font-family: 'helvetica neue', arial, sans-serif;
+        font-weight: 100;
+        line-height: 100px;
+        color: #FF0066;
+        text-transform: uppercase;
+    }
+}
+
+main{
+    min-width: 500px;
+    max-width: 700px;
+    margin: 110px auto 0 auto;
+}
+
+hr{
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100px;
+    margin: 0 auto 60px auto;
+}
+
+.content{
+    margin: 0 auto 60px auto;
+    padding: 20px;
+    
+    h2{
+        font-size: 4em;
+        margin-bottom: 20px;
+        font-family: 'helvetica neue', arial, sans-serif;
+        text-shadow: rgba(0,0,0,0.25) 0 2px 5px 0;
+        text-transform: uppercase;
+    }
+    
+    h3{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .real_info{
+        padding-left: 20px;
+        border-left: 1px solid rgba(255,255,255,0.5);
+        
+        img{
+            max-width: 200px;
+            max-height: 300px;
+            margin-bottom: 10px;
+        }
+        
+        h4{
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        
+        p{
+            line-height: 1.4;
+        }
+    }
+}
+
+
+#period{
+    display: block;
+    height: 2px;
+    width: 2px;
+    border: 3px double white;
+    border-radius: 50%;
+    margin: 0 auto 60px auto;
+}
